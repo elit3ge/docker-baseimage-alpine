@@ -12,3 +12,6 @@ steps:
     repo: elit3ge/docker-baseimage-alpine
     tags:
     - latest
+  environment:
+    # Enable BuildKit for this step
+    DOCKER_BUILDKIT: 1
